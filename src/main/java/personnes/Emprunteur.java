@@ -1,6 +1,8 @@
 package personnes;
 
 import materiel.Empruntable;
+
+import java.util.Iterator;
 import java.util.List;
 
 public class Emprunteur
@@ -17,11 +19,8 @@ public class Emprunteur
         return stock;
     }
 
-    /*
-    public bool perdreMateriel(Empruntable em)
+    public boolean perdreMateriel(Empruntable em)
     {
-
-        return false;
+        return this.stock.remove(em);
     }
-     */
 }

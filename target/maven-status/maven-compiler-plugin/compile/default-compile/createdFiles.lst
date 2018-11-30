@@ -1,0 +1,14 @@
+materiel\Ecran.class
+materiel\UC.class
+personnes\Emprunteur.class
+Organisations\Entreprise.class
+materiel\CasqueAvecMicro.class
+materiel\Clavier.class
+materiel\Empruntable.class
+materiel\Imprimante.class
+materiel\Souris.class
+Organisations\Agence.class
+personnes\Administrateur.class
+personnes\Employe.class
+materiel\TELPortable.class
+materiel\PCPortable.class

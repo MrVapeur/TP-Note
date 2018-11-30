@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3ea9da2-3b8f-42e0-b937-57611af4645c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/CasqueAvecMicro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/Clavier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/Ecran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/Imprimante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/PCPortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/Souris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/TELPortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/materiel/UC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personnes/Administrateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personnes/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personnes/Emprunteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,23 +56,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="76" />
+          <entry key="java" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="354" />
         </counts>
       </usages-collector>
     </session>
@@ -118,11 +114,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/materiel/Imprimante.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Employe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Administrateur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Emprunteur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +182,9 @@
         <option value="$PROJECT_DIR$/src/main/java/materiel/TELPortable.java" />
         <option value="$PROJECT_DIR$/src/main/java/materiel/CasqueAvecMicro.java" />
         <option value="$PROJECT_DIR$/src/main/java/materiel/Imprimante.java" />
+        <option value="$PROJECT_DIR$/src/main/java/personnes/Administrateur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/personnes/Employe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/personnes/Emprunteur.java" />
       </list>
     </option>
   </component>
@@ -182,7 +215,9 @@
     <option name="width" value="1310" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -238,6 +273,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="materiel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TP Note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP Note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="personnes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -247,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543588266569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543589507191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,12 +321,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543587640880</updated>
       <workItem from="1543587642793" duration="623000" />
-      <workItem from="1543588401169" duration="489000" />
+      <workItem from="1543588401169" duration="1376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1112000" />
+    <option name="totallyTimeSpent" value="1999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -403,6 +446,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Administrateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Employe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/personnes/Emprunteur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

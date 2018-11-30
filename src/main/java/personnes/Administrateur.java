@@ -29,9 +29,16 @@ public class Administrateur extends Employe
             return false;
     }
 
-    public boolean récupererMateriel(Empruntable empruntable, Emprunteur emprunteur)
+    public boolean recupererMateriel(Empruntable empruntable, Emprunteur emprunteur)
     {
-        return emprunteur.perdreMateriel(empruntable);
+        if(emprunteur.perdreMateriel(empruntable))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public List<Empruntable> stockEntreprise()

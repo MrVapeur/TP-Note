@@ -5,7 +5,17 @@ public class Empruntable
     private boolean limitationPretAuxAgences;
     private boolean defectueux;
 
-    public void declarerDeffectueux()
+    public Empruntable(boolean limit)
+    {
+        this.limitationPretAuxAgences = limit;
+    }
+
+    public Empruntable()
+    {
+        this.limitationPretAuxAgences = false;
+    }
+
+    public void declarerDefectueux()
     {
         this.defectueux = true;
     }

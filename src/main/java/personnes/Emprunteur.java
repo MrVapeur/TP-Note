@@ -2,12 +2,13 @@ package personnes;
 
 import materiel.Empruntable;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class Emprunteur
 {
-    private List<Empruntable> stock;
+    protected List<Empruntable> stock = new ArrayList<Empruntable>();
 
     public void ajouterAuStock(Empruntable em)
     {
